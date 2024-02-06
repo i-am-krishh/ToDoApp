@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todoList {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
